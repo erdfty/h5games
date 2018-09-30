@@ -137,7 +137,7 @@
 .mod-topic-list li p{position:relative;width:135px;height:22px;margin:-22px auto 0 auto;padding:0 5px;line-height:22px;background-color:rgba(0,0,0,.5);border-radius:0 0 3px 3px;text-align:left;color:#fff}
 .btn{min-width:68px;display:inline-block;height:35px;font-size:14px;line-height:33px;color:#fff!important;text-align:center;}.btn-o{ background:#fff;}
 .btn-b,.btn-info{background:-webkit-gradient(linear,left top,left bottom,from(#5FB1CC),to(#5FB1CC));text-shadow:-1px 0 #5FB1CC,0 1px #5FB1CC,1px 0 #5FB1CC,0 -1px #5FB1CC;border:1px solid #5FB1CC}
-.btn-g{height:24px; line-height:22px; background-color:#5FB1CC; border-radius:2px; margin-top:35px;}
+.btn-g{height:24px; line-height:24px; background-color:#5FB1CC; border-radius:2px; margin-top:35px;}
 .btn-c{ width:78px; height:28px; line-height:26px; background-color:#5FB1CC; border-radius:2px; margin-top:5px;}
 .btn-d{ display:block; -webkit-box-flex:1; margin:0 10px;height:38px;background-color:#5FB1CC; line-height:36px; border-radius:3px;}
 .btn-e{ display:block; width:145px;height:38px;background-color:#5FB1CC; line-height:36px; border-radius:3px; margin:0 auto;}
