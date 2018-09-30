@@ -463,6 +463,9 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	background: rgba(0, 0, 0, 0.1);
 	font-family: 黑体;
 }
+#fix_footer_menu a,#fix_footer_menu_on a{
+  color: #fbfbfb;
+}
 #fix_footer_menu_on {
 	border-right:1px solid rgba(0, 0, 0, 0.4);
 	background: rgba(0, 0, 0, 0.3);
@@ -474,12 +477,12 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <div class="fix_footer" id="fix_footer" style="left:0;background-color:#191919;color:#ffffff;height:55px;width:100%;position:fixed;bottom:0%;font-size:14px;">
 <table width="100%" height="100%" border="0" style="border-collapse: collapse;">
 <tbody><tr>
-<td id="fix_footer_menu" onClick="window.location=&#39;\index.html;" align="center"><img src="./img/nav_7.png" height="25"><br>
+<td id="fix_footer_menu_on" onClick="javascript:;" align="center"><img src="./img/nav_7.png" height="25"><br>
   玩游戏</td>
-<td id="fix_footer_menu_on" onClick="window.location=&#39;\ceshi\index.html;" align="center"><img src="./img/nav_5.png" height="25"><br>
-小测试</td>
-<td id="fix_footer_menu" onClick="window.location=&#39;http://www.9miao.com;"&#39;" align="center"><img src="./img/nav_2.png" height="25"><br>
-微社区</td>
+<td id="fix_footer_menu" onClick="\ceshi\index.html;" align="center"><a href="ceshi/index.html"><img src="./img/nav_5.png" height="25"><br>
+小测试</a></td>
+<td id="fix_footer_menu" onClick="javascript:;" align="center"><a href="https://blog.csdn.net/erdfty"><img src="./img/nav_2.png" height="25"><br>
+微社区</a></td>
 </tr>
 </tbody></table>
 </div>
